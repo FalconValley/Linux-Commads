@@ -1,2 +1,14 @@
 sudo -u postgres createuser -s falcon
 sudo pip3 install psycopg2-binary
+
+
+sudo apt install git
+git --version
+sudo apt install nodejs
+nodejs --version
+sudo apt install npm
+npm --version
+sudo apt install python3-pip
+sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/13.0/odoo_install.sh
+sudo chmod +x odoo_install.sh
+sudo ./odoo_install.sh
